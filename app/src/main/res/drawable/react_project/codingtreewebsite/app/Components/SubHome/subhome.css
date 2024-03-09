@@ -1,0 +1,37 @@
+.MainSubhome {
+  display: flex;
+  margin-top: 10px;
+  overflow: hidden;
+}
+.subhomeLeft {
+  flex: 1.05;
+}
+
+.MainSubhomeCenter {
+  flex: 1.9;
+  position: relative;
+}
+
+.subhomeright {
+  flex: 1.35;
+  margin-left: 15px;
+}
+
+.loading-spinner-wrapper {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 768px) {
+  .MainSubhome {
+    flex-direction: column;
+  }
+
+  .subhomeLeft,
+  .MainSubhomeCenter,
+  .subhomeright {
+    flex: 1;
+  }
+}

@@ -1,0 +1,102 @@
+.PostTopItemsContainer{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 5px;
+    padding-bottom: 7px;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 69px;
+    height: 30px;
+}
+
+.PostTopItemsContainer:hover {
+    background-color: #303030;
+}
+
+.Icons {
+    border-radius: 5px;
+    height: 40px;
+    background-color: #1A1A1B;
+    display: 'flex';
+    justify-content: "space-between";
+    margin-top: 20;
+    margin-left: -9;
+}
+
+.moreIcons{
+    width: 20px;
+    height: 20px;
+    margin-top: 23px;
+    margin-left: 20px;
+}
+
+.Cardicons{
+    width: 23px;
+    height: 23px; 
+    margin-top: 20px;   
+}
+
+.PostContainer{
+    background-color: #1A1A1B;
+    display: flex;
+    margin-top: 10px;
+    padding: 4px;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.postContainerLeftbar{
+    flex: 0.3;
+}
+.postContainerRightbar{
+    flex: 3;
+}
+.textStyle {
+    color: #D7DADC;
+    font-size: .8em;
+    padding: 10px;
+    margin-left: 0px;
+}
+
+.PostContainer:hover{
+    outline: 0.3px solid rgb(154, 154, 154);
+    padding: 4px;
+}
+
+.profile{
+    width: 26px;
+    height: 26px;
+}
+
+.PostImage{
+    width: 100%;
+    height: 300px;
+    margin-top: 5px;
+    object-fit: contain;
+}
+
+@media (max-width: 768px) {
+    .PostContainer {
+        flex-direction: column;
+    }
+
+    .postContainerLeftbar,
+    .postContainerRightbar {
+        flex: 1; 
+    }
+
+    .PostImage {
+        width: 100%; 
+        height: auto; 
+        max-height: 40vh;
+    }
+    
+    .postContainerLeftbar {
+        flex: 0;
+    }
+}

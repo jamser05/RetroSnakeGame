@@ -1,0 +1,37 @@
+.PostCommentpageRight {
+  flex: 1.05;
+}
+
+.PostCommentpageCenter {
+  flex: 1.9;
+}
+.PostCommentpageLeft {
+  margin-top: 10px;
+  flex: 1.35;
+}
+
+.upicon {
+  width: 26px;
+  height: 26px;
+}
+
+.downicon {
+  width: 26px;
+  height: 26px;
+  margin-left: 10px;
+}
+
+.imageicon {
+  width: 23px;
+  height: 23px;
+  margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+  .PostCommentpageLeft {
+    display: none;
+  }
+  .PostCommentpageRight {
+    display: none;
+  }
+}

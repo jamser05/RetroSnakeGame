@@ -1,0 +1,78 @@
+.CreatePostLeft{
+    flex: 1;
+}
+.CreatePostRight{
+    flex: 2;
+}
+.CreatePostCenter{
+    flex: 1.8;
+}
+
+.CircleIcon{
+    width: 4%;
+    height: 3.3vh;
+    
+}
+
+.chooseCommunity{
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.communityText{
+    margin-left: 10px;
+}
+
+.ItemsContainerInCreatePage{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+
+.ItemsContainerInCreatePageIcon{
+    width: 25px;
+    height: 25px;
+}
+
+.CreatePostTitle{
+    width: 100%;
+    height: 4vh;
+    border: none;
+    background-color: black;
+    font-size: 16px;
+}
+
+.WriteAContent{
+    width: 100%;
+    font-weight: 800;
+    height: 20vh;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.WriteAURL{
+    width: 100%;
+    font-weight: 800;
+    height: 10vh;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.writingContainer:hover{
+    border: 1px solid rgb(94, 93, 93);
+}
+
+.profileIcons{
+    width: 45px;
+    height: 45px;
+    color:#dedada
+}

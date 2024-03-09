@@ -1,0 +1,25 @@
+.leftblank{
+    flex: 1.7;
+}
+.Centerpart{
+    flex: 3;
+}
+.rightPart{
+    flex: 3;
+}
+
+.ProfileNavparttext{
+    color:#c7c6c6
+}
+
+.linkIcons{
+    width: 26px;
+    height: 26px;
+    margin-top: 10px;
+}
+
+.PostTopItemsContainer{
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+}

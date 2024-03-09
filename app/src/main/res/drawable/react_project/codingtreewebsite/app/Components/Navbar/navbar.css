@@ -1,0 +1,292 @@
+.main {
+  background-color: #1a1a1b;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logoTextContainer {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.postContentMenu {
+  cursor: pointer;
+  align-items: center;
+  width: 100px;
+  margin-right: 10px;
+  background-color: hsl(240, 2%, 10%);
+  border-radius: 5px;
+}
+.postCardMenu p {
+  margin: 10px;
+}
+.postCardMenu {
+  display: flex;
+  align-items: center;
+  margin-right: 0px;
+  font-size: 13px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.postContainer {
+  position: relative;
+  z-index: 2;
+  margin-top: 7px;
+}
+
+.postCard {
+  background-color: #1a1a1b;
+  border: 1px solid #1a1a1b;
+  position: relative;
+  cursor: pointer;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
+}
+
+.postCardMenu:hover {
+  background-color: rgba(0, 121, 211, 0.1);
+}
+
+.postContent:hover {
+  background-color: #303030;
+}
+
+.postContent {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.postImage {
+  margin-right: 10px;
+}
+
+.postTitle {
+  margin: 10px;
+}
+
+.Rightbar {
+  display: flex;
+  align-items: center;
+  flex: 0.9;
+}
+.logoContainer {
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+  /*margin-top: 10px;*/
+}
+.logoContainer img {
+  margin-right: 0px;
+  margin-left: 0px;
+  height: 60px;
+  font-weight: bold;
+}
+
+.logostyle {
+  width: 50px;
+  height: 55px;
+}
+
+.logonamestyle {
+  width: 100px;
+  height: 60px;
+  margin-left: 0px;
+}
+
+.logoContainerPartTwo {
+  display: flex;
+  align-items: center;
+  /*
+    margin-top: 10px;
+    */
+  margin-left: 10px;
+}
+
+.homestyle {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.searchstyle {
+  width: 22px;
+  height: 22px;
+}
+
+.Centerbar:focus-within {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.Centerbar:hover,
+.Centerbar:hover + .SearchBox {
+  border: 1px solid rgb(255, 255, 255);
+  background-color: #1a1a1b;
+  margin-top: 10px;
+  margin-right: 10%;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  margin-left: 10px;
+}
+.Centerbar:hover {
+  background-color: #1a1a1b;
+}
+
+.SearchBox:focus-within + .Centerbar,
+.SearchBox:hover + .Centerbar {
+  background-color: #1a1a1b;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.SearchBox:focus-within + .Centerbar,
+.SearchBox:hover + .Centerbar,
+.Centerbar:hover .SearchBox {
+  background-color: #1a1a1b;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.Centerbar {
+  flex: 2;
+  margin-top: 10px;
+  margin-right: 10%;
+  border-radius: 20px;
+  background-color: #303030;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  margin-left: 10px;
+}
+
+.SearchBox {
+  width: 100vh;
+  border: none;
+  margin-left: 10px;
+  background-color: #303030;
+  outline: none;
+}
+.postTitle {
+  font-size: 12px;
+}
+
+.Leftbar {
+  margin-right: 40px;
+  flex: 1;
+  display: flex;
+  /*
+    margin-top: 12px;
+    */
+}
+
+.profileIcon {
+  width: 32px;
+  height: 32px;
+  margin-left: 10px;
+}
+
+.popularicon {
+  width: 20px;
+  height: 20px;
+  margin-left: 0px;
+}
+
+.message {
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+}
+
+.notificaiton {
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+}
+
+.addcontent {
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+}
+
+.ads {
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+}
+
+.showmore {
+  margin-left: 70px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .postCardMenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    width: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: #1a1a1b;
+  }
+
+  .postCardMenu p {
+    font-size: 14px;
+  }
+
+  .logoTextContainer {
+    display: none;
+  }
+
+  .logonamestyle {
+    display: none;
+  }
+
+  .homestyle {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  .homestyle p {
+    display: none;
+  }
+  .postCardMenu p {
+    display: flex;
+  }
+  .homestyle img {
+    margin: 15px;
+    border: 1px solid #303030;
+    border-radius: 0%;
+  }
+
+  .Centerbar {
+    width: 65%;
+    box-sizing: border-box;
+    background-color: #303030;
+  }
+  .SearchBox {
+    width: 35%;
+    box-sizing: border-box;
+    padding: 0 44px 0 10px;
+    border: none;
+    background-color: #303030;
+    outline: none;
+  }
+
+  .logoContainer img {
+    margin-left: -10px;
+  }
+}
